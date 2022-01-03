@@ -3,7 +3,7 @@
 }
 
 #calcFrame {
-    height: 700px;
+    height: 750px;
     width: 500px;
     background-color: rgb(46, 46, 46);
     margin:auto;
@@ -11,7 +11,7 @@
 }
 
 #display {
-    height: 100px;
+    height: 150px;
     width: 470px;
     background-color: rgb(235, 232, 232);
     margin: auto;
@@ -22,9 +22,18 @@
 }
 
 #displayNum {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 2px;
     padding-right: 15px;
+}
+
+#savedNum {
+    padding-right: 5px;
+    line-height: 0px;
+}
+#operator {
+    padding-right: 5px;
+    line-height: 0px;
 }
 
 #zeroBtn {
@@ -41,6 +50,22 @@
                          '7Btn 8Btn 9Btn multiplyBtn'
                          '4Btn 5Btn 6Btn minusBtn'
                          '1Brn 2Btn 3Btn plusBtn'
-                         'zeroBtn zeroBtn dotBtn equalsBtn';
-                         
+                         'zeroBtn zeroBtn dotBtn equalsBtn';        
+}
+
+.Btn {
+    font-size: 25px;
+    background-color: rgb(221, 218, 218);
+}
+
+#acBtn {
+    background-color: rgb(231, 199, 158);
+}
+
+.operator {
+    background-color: rgb(150, 150, 150);
+}
+
+#equalsBtn {
+    background-color: rgb(255, 190, 129);
 }
